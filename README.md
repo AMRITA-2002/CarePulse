@@ -27,12 +27,10 @@
 - [Model Performance](#-model-performance)
 - [Installation & Setup](#-installation--setup)
 - [Usage Guide](#-usage-guide)
-- [API Documentation](#-api-documentation)
 - [Dataset Information](#-dataset-information)
 - [Live Deployment](#-live-deployment)
 - [Future Enhancements](#-future-enhancements)
 - [Contributors](#-contributors)
-- [License](#-license)
 
 ---
 
