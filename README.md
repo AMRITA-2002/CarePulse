@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Prediction with Personalized Diet Plan & Web Interface
+# 🫀 Heart Disease Prediction with Personalized Diet Plan
 
 ![Project Banner](assets/banner.jpg)
 
@@ -28,9 +28,9 @@
 - [Installation & Setup](#-installation--setup)
 - [Usage Guide](#-usage-guide)
 - [Dataset Information](#-dataset-information)
-- [Live Deployment](#-live-deployment)
 - [Future Enhancements](#-future-enhancements)
 - [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
@@ -153,6 +153,7 @@ This comprehensive **Heart Disease Prediction System** combines state-of-the-art
 │   ├── 🏗️ base.html                  # Base template
 │   ├── 📞 contact.html               # Contact page
 │   ├── 📊 diet_charts.html           # Diet charts display
+│   ├── 📊 model_statistics.html      # Brief description about model's Performance
 │   ├── 🍎 diet_plan.html             # Individual diet plan view
 │   ├── 🏠 index.html                 # Homepage
 │   ├── 🔮 predict.html               # Prediction input form (20 features)
@@ -172,7 +173,7 @@ Our Random Forest model demonstrates exceptional performance across all evaluati
 
 ### 🎯 **Core Performance Metrics**
 - **Accuracy**: 94.6% - Outstanding overall prediction accuracy
-- **Precision**: 92.7% - High reliability in positive predictions  
+- **Precision**: 99.7% - High reliability in positive predictions  
 - **Recall**: 86.6% - Excellent sensitivity in detecting heart disease
 - **F1-Score**: 92.7% - Optimal balance between precision and recall
 - **ROC-AUC**: 92.7% - Superior discriminative ability
@@ -198,7 +199,7 @@ Advanced class imbalance handling through systematic weight optimization:
 ![Class Weight Impact](assets/class_weight.png)
 
 **Optimization Results:**
-- **Best Configuration**: Balanced class weights (0:1, 1:1)
+- **Best Configuration**: Balanced class weights (0:1, 1:5)
 - **Impact on Metrics**: Optimal precision-recall trade-off achieved
 - **Robustness**: Consistent performance across different weight configurations
 
@@ -238,8 +239,8 @@ Systematic hyperparameter validation ensuring optimal model configuration:
 
 ### **Step 1: Clone Repository**
 ```bash
-git clone https://github.com/AMRITA-2002/HEART-DISEASE-PREDICTION-WITH-CUSTOMIZED-DIET-CHART
-cd HEART-DISEASE-PREDICTION-WITH-CUSTOMIZED-DIET-CHART
+git clone https://github.com/Soumen633/Heart-DiseasePrediction-With-Personalized-Diet-Plan
+cd Heart-DiseasePrediction-With-Personalized-Diet-Plan
 ```
 
 ### **Step 2: Create Virtual Environment** *(Recommended)*
@@ -483,11 +484,11 @@ This project was developed as a collaborative effort by a dedicated team of data
 
 <div align="center">
 
-| Contributor | Role | GitHub | Expertise |
-|-------------|------|--------|-----------|
-| **Soumen Nandi** | Lead ML Engineer | [@Soumen633](https://github.com/Soumen633) | Model Development, Algorithm Optimization |
-| **Pankaj Kumar Rawani** | Backend Developer | [@P-Rawani001](https://github.com/P-Rawani001) | Flask Application, API Development |
-| **Amrita Mandal** | Frontend Developer | [@AMRITA-2002](https://github.com/AMRITA-2002) | UI/UX Design, Web Interface |
+| Contributor |Github Profile |
+|-------------|--------|
+| **Soumen Nandi** | [@Soumen633](https://github.com/Soumen633) |
+| **Pankaj Kumar Rawani** | [@P-Rawani001](https://github.com/P-Rawani001) |
+| **Amrita Mandal** | [@AMRITA-2002](https://github.com/AMRITA-2002) |
 
 </div>
 
@@ -507,20 +508,9 @@ We extend our gratitude to:
 
 ## 📞 Support & Contact
 
-### **🐛 Bug Reports & Feature Requests**
-- Create an issue on [GitHub Issues](https://github.com/P-Rawani001/heart-disease-prediction/issues)
-- Use appropriate labels for better categorization
-- Provide detailed information for reproducibility
-
-### **💬 Community & Discussion**
-- Join our [Discussion Forum](https://github.com/P-Rawani001/heart-disease-prediction/discussions)
-- Connect with contributors and users
-- Share use cases and success stories
-
 ### **📧 Direct Contact**
 For direct inquiries, collaborations, or commercial use:
 - Email: [carepulse.in@gmail.com](mailto:carepulse.in@gmail.com)
-- LinkedIn: Connect with our team members for professional networking
 
 ---
 ---
